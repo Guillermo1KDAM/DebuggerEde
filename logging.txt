@@ -1,0 +1,6 @@
+abr 15, 2024 5:41:56 P. M. severo.ed.debug.HolaLogger escribirEnLog
+ADVERTENCIA: Se ha lanzado una excepci?n
+abr 15, 2024 5:41:56 P. M. severo.ed.debug.HolaLogger escribirEnLog
+GRAVE: No se ha podido conectar con la Base de Datos
+abr 15, 2024 5:41:56 P. M. severo.ed.debug.HolaLogger escribirEnLog
+INFORMACIÓN: El log se ha probado correctamente
