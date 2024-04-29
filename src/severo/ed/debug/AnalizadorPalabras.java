@@ -58,13 +58,19 @@ public class AnalizadorPalabras {
 	 */
 	public int contarCaracteresRepetidos() {
 		int c = 0;
-		for (int i = 1; i < palabra.length() - 1; i++) {
+		for (int i = 0; i < palabra.length()- 1; i++) {
 			if (palabra.charAt(i) == palabra.charAt(i + 1)) // encuentra una repetición
 			{
-				if (palabra.charAt(i - 1) != palabra.charAt(i)) // es el inicio
+				if (i == 0){
 					c++;
+				}
+				else if (palabra.charAt(i - 1) != palabra.charAt(i)) // es el inicio
+					c++;
+
+				}
+
 			}
-		}
+
 		return c;
 	}
 }

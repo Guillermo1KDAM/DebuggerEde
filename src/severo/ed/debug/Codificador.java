@@ -86,10 +86,10 @@ public class Codificador {
 		System.out.print("Quieres codificar o decodificar [C/D]?: ");
 		String string1Input = in.next();
 
-		if (string1Input.equals("C")) {
+		if (string1Input.equalsIgnoreCase("C")) {
 			codificar();
 		}
-		if (string1Input.equals("D")) {
+		if (string1Input.equalsIgnoreCase("D")) {
 			decodificar();
 		}
 		while (!string1Input.equals("D") && !string1Input.equals("C")) {
