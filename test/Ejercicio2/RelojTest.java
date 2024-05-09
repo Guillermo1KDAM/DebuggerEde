@@ -9,7 +9,5 @@ public class RelojTest {
     @Test
     public void testReloj() {
         Reloj actual = new Reloj(23,50, 30);
-        Reloj esperado = new Reloj();
-        Assertions.
     }
 }
