@@ -1,4 +1,4 @@
-package severo.ed.debug.Ejercicio1;
+package Ejercicio1;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

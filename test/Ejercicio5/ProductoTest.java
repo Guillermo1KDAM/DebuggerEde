@@ -1,7 +1,8 @@
-package severo.ed.debug.Ejercicios.Ejercicio5;
+package Ejercicio5;
 
 import org.junit.jupiter.api.Test;
 import severo.ed.debug.Ejercicios.Ejercicio4.CajaBlanca;
+import severo.ed.debug.Ejercicios.Ejercicio5.Producto;
 
 import static org.junit.jupiter.api.Assertions.*;
 

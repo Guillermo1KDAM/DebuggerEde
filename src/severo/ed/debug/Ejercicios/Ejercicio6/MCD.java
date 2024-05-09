@@ -1,7 +1,7 @@
 package severo.ed.debug.Ejercicios.Ejercicio6;
 
 public class MCD {
-    int mcd(int a, int b) {
+    public int mcd(int a, int b) {
         if (a < 0 || b < 0) {
             System.err.println("Los números deben ser positivos");
             return -1;

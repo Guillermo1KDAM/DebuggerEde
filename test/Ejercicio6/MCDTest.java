@@ -1,6 +1,8 @@
-package severo.ed.debug.Ejercicios.Ejercicio6;
+package Ejercicio6;
 
 import org.junit.jupiter.api.Test;
+import severo.ed.debug.Ejercicios.Ejercicio6.MCD;
+
 class MCDTest {
     @Test
     public void test1() {
